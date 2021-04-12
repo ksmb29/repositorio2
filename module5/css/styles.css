@@ -1,0 +1,32 @@
+table{
+    width: 100%;
+}
+table, th, td{
+    border: 1px solid black;
+    /*border-collapse: collapse;*/
+    border-spacing: 5px;
+    padding: 5px;
+    
+}
+td{
+    text-align: center;
+}
+th{
+    text-align: left;
+    color: #f1faee;
+    background-color: #1d3557;
+}
+caption{
+    color: red;
+    font-family: "Trocchi", serif;
+    font-size: 45px;
+    line-height: 70px;
+}
+/*pare*/
+tr:nth-child(even){
+    background-color: cadetblue;
+}
+tr:nth-child(odd){
+    background-color: coral;
+}
+
