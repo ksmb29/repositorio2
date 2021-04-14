@@ -1,0 +1,29 @@
+h1{
+    color:#f72585;
+    text-align: center;
+
+    
+}
+h2{
+    color: #3f37c9;
+    text-align: center;
+
+}
+h3{
+    font-style: italic;
+    color: crimson;
+    font-size: x-large;
+}
+div p{
+    color: #457;
+    font-weight: bold;
+    font-size: x-large;
+}
+p{
+    color: darkgoldenrod;
+}
+div{
+    border: 10px solid #f72585;
+    background-color: chartreuse;
+    text-align: center;
+}

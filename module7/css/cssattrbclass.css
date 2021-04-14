@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#titulo_principal{
+    color: gold;
+}
+.tarjeta{
+    color: crimson;
+    border: 10px solid darkred;
+    text-align: center;
+    margin: 15px 100px ;
+    padding: 15px;
+}
+.titulo{
+    font-style: italic;
+    font-weight: bold;
+}
+h1{
+    color: darkslateblue;
+}
