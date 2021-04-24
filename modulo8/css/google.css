@@ -1,0 +1,50 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+html, body {
+    min-width: 400px;
+}
+body, input, button {
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #222;
+}
+body {
+    background: #fff;
+}
+.whole{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.header{
+    display: flex;
+    align-items: center;
+    padding: 6px;
+    height: 60px;
+    flex-shrink: 0;
+    box-sizing: border-box;
+}
+.headermargin{
+    display: inline-block;
+    flex-grow: 1;
+}
+.headercontainer{
+    min-width: auto;
+    font: 13px/27px Roboto,RobotoDraft,Arial,sans-serif;
+    z-index: 986;
+    height: 48px;
+    color: black;
+}
+.leftheader{
+    float: right;
+    padding-left: 32px;
+    box-sizing: border-box;
+    height: 48px;
+    line-height: normal;
+    padding: 0 4px;
+    flex: 0 0 auto;
+    justify-content: flex-end;
+}

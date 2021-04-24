@@ -1,0 +1,185 @@
+html, body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+
+    min-width: 400px;
+}
+body, input, button{
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    color: #222;
+}
+body{
+    background: #fff;
+}
+.wholecontainer{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+    background: blue;
+}
+.headercontainer{
+    background: white;
+    
+    height: 60px;
+
+    display: flex;
+    align-items: center;
+    padding: 6px;
+
+    flex-shrink: 0;
+    box-sizing: border-box;
+}
+.headerdisplay{
+    background: black;
+    display: inline-block;
+    flex-grow: 1;
+}
+.header{
+    background: white;
+    min-width: auto;
+    font: 13px/27px Roboto,RobotoDraft,Arial,sans-serif;
+    z-index: 986;
+    height: 48px;
+    color: black;
+    position: relative;
+    /*transition: box-shadow 250ms;*/
+}
+.header .leftpart{
+
+    float: right;
+    padding-left: 32px;
+
+    box-sizing: border-box;
+    height: 48px;
+    line-height: normal;
+    justify-content: flex-end;
+
+    white-space: nowrap;
+    -moz-box-align: center;
+    align-items: center;
+
+    display: flex;
+    -moz-user-select: -moz-none;
+}
+.leftpart .textpart{
+    white-space: nowrap;
+    line-height: normal;
+}
+.leftpart .textpart2{
+    font-family: arial,sans-serif;
+    line-height: normal;
+    padding-right: 15px;
+    white-space: nowrap;
+}
+.leftpart .textpart .textpart2 div{
+    display: inline-block;
+    padding-left: 15px;
+    white-space: nowrap;
+}
+.leftpart .textpart .textpart2 div a{
+    display: inline-block;
+    line-height: 24px;
+    vertical-align: middle;
+
+    color: rgba(0,0,0,0.87);
+    text-decoration: none;
+}
+.leftpart .textpart .textpart2 div a:hover{
+    text-decoration:underline;
+}
+.leftpar .iconpart{
+    float: right;
+    position: relative;
+    line-height: normal;
+    white-space: nowrap;
+}
+.leftpart .iconpart .appmargin{
+    display: inline;
+}
+.leftpart .iconpart .appmargin .appframe{
+    padding: 4px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.leftpart .iconpart .appmargin .appicon {
+    position: relative;
+}
+.leftpart .iconpart .appmargin div a{
+    color: #000;
+    cursor: pointer;
+    text-decoration: none;
+
+    opacity: 1;
+
+    background-position: -64px -29px;
+
+    padding: 8px;
+
+    display: inline-block;
+    outline: none;
+    vertical-align: middle;
+
+    border-radius: 2px;
+
+    box-sizing: border-box;
+    height: 40px;
+    width: 40px;
+}
+.leftpart .iconpart .appmargin div a:hover{
+    background-color: rgba(60,64,67,0.08);
+    border-radius: 50%;
+}
+.leftpart .iconpart .appmargin div a img{
+    height: 30px;
+    width: 30px;
+    
+}
+.leftpart .iconpart .usermargin{
+    display: inline;
+}
+.leftpart .iconpart .usermargin .userframe{
+    padding: 0;
+    display: inline-block;
+    vertical-align: middle;
+}
+.leftpart .iconpart .usermargin .usericon {
+    position: relative;
+}
+.leftpart .iconpart .usermargin div a{
+    color: #000;
+    cursor: pointer;
+    text-decoration: none;
+
+    opacity: 1;
+
+    background-position: -64px -29px;
+
+    padding: 8px;
+
+    display: inline-block;
+    outline: none;
+    vertical-align: middle;
+
+    border-radius: 2px;
+
+    box-sizing: border-box;
+    height: 40px;
+    width: 40px;
+}
+.leftpart .iconpart .usermargin div a:hover{
+    background-color: rgba(60,64,67,0.08);
+    border-radius: 50%;
+}
+.leftpart .iconpart .usermargin div a img{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    
+}
+
+
+
+
