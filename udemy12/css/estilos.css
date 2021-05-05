@@ -1,0 +1,20 @@
+h1{
+    text-align: center;
+    color: crimson;
+}
+.caja2{
+    padding: 10px;
+    border: 15px solid ;
+    margin: 30px;
+    background-color: whitesmoke;
+    width: 300px;
+    outline: yellow solid 20px;
+}
+.caja1{
+    padding: 10px;
+    border: 15px solid ;
+    margin: 20px;
+    background-color: whitesmoke;
+    width: 300px;
+    outline: yellow solid 20px;
+}
