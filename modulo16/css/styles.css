@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia&display=swap');
+
+h1{
+    color: #ef466f;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px #ced4da;
+    font-family: 'Sofia', cursive;
+}
+.caja{
+    padding: 5px;
+    width: 40%;
+    height: 80px;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    margin: 10px;
+    font-size: 20px;
+    float: left;
+}
+.caja.serif{
+    background-color: #5a189a;
+}
+.times{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-variant: small-caps;
+}
+.georgia{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+.caja.sansserif{
+    background-color: aqua;
+    color: black;
+}
+.arial{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+    font-weight: bolder;
+}
+.verdana{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+.caja.monospace{
+    background-color: chocolate;
+
+}
+.courier{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+}
+.caja.cursiva{
+    background-color: darkgoldenrod;
+}
+.lucida{
+    font-family: 'Lucida Handwriting', cursive;
+}
