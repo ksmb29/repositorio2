@@ -1,0 +1,30 @@
+h1{
+    text-align: center;
+    color: red;
+}
+div.container{
+    border: 3px solid blue;
+    padding: 15px;
+    width: 30%;
+    height: 20%;
+    margin: auto;
+    color: black;
+    text-align: center;
+
+}
+div.container:hover{
+    background-color: #457b9d;
+    color: white;
+}
+div.container.oculto p{
+    display: none;
+}
+div.container.oculto:hover p{
+    display: block;
+    background-color: black;
+    color: white;
+    padding: 15px;
+}
+div.container.primero p:first-child{
+    font-variant: small-caps;
+}

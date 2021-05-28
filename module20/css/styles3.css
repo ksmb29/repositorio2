@@ -1,0 +1,31 @@
+h1{
+    text-align: center;
+    color: red;
+}
+div.container{
+    border: 3px solid blue;
+    padding: 15px;
+    width: 30%;
+    height: 20%;
+    margin: auto;
+    color: black;
+    text-align: center;
+
+}
+div.container p::selection{
+    color: red;
+    background: yellow;
+}
+div.container p::first-line{
+    font-variant: small-caps;
+}
+div.container p::first-letter{
+    color: red;
+    font-size: 2em;
+}
+div.container p::before{
+    content: "- ";
+}
+div.container p::after{
+    content: "- ";
+}

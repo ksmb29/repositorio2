@@ -1,0 +1,25 @@
+h1{
+    text-align: center;
+    color: red;
+}
+div.contenedor{
+    width: 80%;
+    height: 20%;
+    margin: auto;
+    border: 3px solid skyblue;
+    padding: 15px;
+    color: teal;
+    
+}
+div.contenedor.descendiente p{
+    background-color: aquamarine;
+}
+div.contenedor.hijo > p{
+    background-color: coral;
+}
+div.contenedor.adyascente + p{
+    background-color: darksalmon;
+}
+div.contenedor.sibling ~ p{
+    background-color: darkseagreen;
+}
